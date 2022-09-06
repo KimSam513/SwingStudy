@@ -26,7 +26,7 @@ public class HelloBorderLayout extends JFrame{
 		p.add(btn5, BorderLayout.SOUTH);
 		
 		
-	
+	//
 		
 		setTitle("보더 레이아웃");
 		setSize(350,200);
