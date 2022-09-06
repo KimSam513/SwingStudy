@@ -11,11 +11,12 @@ public class HelloBorderLayout extends JFrame{
 		JPanel p = new JPanel();
 		add(p);
 		
-		JButton btn1 = new JButton("버튼1");
-		JButton btn2 = new JButton("버튼2");
-		JButton btn3 = new JButton("버튼3");
-		JButton btn4 = new JButton("버튼4");
-		JButton btn5 = new JButton("버튼5");
+		//변경점을 저장해서 업로드 해보기 위해 수정하는 코드 
+		JButton btn1 = new JButton("Button1");
+		JButton btn2 = new JButton("Button2");
+		JButton btn3 = new JButton("Button3");
+		JButton btn4 = new JButton("Button4");
+		JButton btn5 = new JButton("Button5");
 		
 		p.setLayout(new BorderLayout());
 		p.add(btn1, BorderLayout.NORTH);
@@ -23,6 +24,9 @@ public class HelloBorderLayout extends JFrame{
 		p.add(btn3, BorderLayout.EAST);
 		p.add(btn4, BorderLayout.CENTER);
 		p.add(btn5, BorderLayout.SOUTH);
+		
+		
+	
 		
 		setTitle("보더 레이아웃");
 		setSize(350,200);
